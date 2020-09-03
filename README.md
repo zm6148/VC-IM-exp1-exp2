@@ -11,7 +11,7 @@
 
 
 # Experiment procedure
-There are 2 folders under in the directory. One is the pilot study, the other is the follow up study. Each of the folders contains all three experiments.  To run the study, run all three experiments from the original folder one after another following a balanced design for each subject.
+There are 2 folders in the directory. One is the pilot study, the other is the follow up study. Each of the folders contains all three experiments.  To run the study, run all three experiments from the original folder one after another following a balanced design for each subject.
 
 Subject ID needs to be consistent for all three experiments. For the same subject, please use the same subject coding for all three experiments when asked.
 
