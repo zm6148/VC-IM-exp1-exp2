@@ -3,7 +3,7 @@
 # Table of Contents
 1. [Requirements](README.md#Requirements)
 1. [Experiment procedure](README.md#Experiment-procedure)
-1. [Questions?](README.md#questions?)
+1. [Questions?](README.md#Questions?)
 
 # Requirements
 1. Those scripts require Matlab 2017a or later
