@@ -6,8 +6,8 @@
 1. [Questions?](README.md#questions?)
 
 # Requirements
-Those scripts requires Matlab 2017a or later
-Required tool box: Psychtoolbox-3 installation is required.
+1. Those scripts requires Matlab 2017a or later
+2. Required tool box: Psychtoolbox-3 installation is required.
 
 
 # Experiment procedure
