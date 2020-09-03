@@ -1,0 +1,13 @@
+function strtlvl=setStartLevelIncDec(fkHz,pLoc,dWidth,pedLev)
+
+a=3.9*10;
+b=0.475;
+c=25*12.5;
+sBase=-6;
+
+strtlvl=sBase+(a/fkHz)+(b/pLoc)+(c/dWidth);
+
+if strtlvl>pedLev
+    strtlvl=pedLev;
+else
+end

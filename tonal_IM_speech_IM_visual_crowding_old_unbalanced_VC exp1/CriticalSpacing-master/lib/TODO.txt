@@ -1,0 +1,6 @@
+cosmetic bugs: (runVisualAcuity:) when useFractionOfScreen the eccentricity is forced to zero, and there is no blanking of fixation at target location. and the reported screen subtense should be full, but is partial.
+
+Request observer date of birth before experiment, and save only approximate age at time of testing to data file. We won’t save date of birth or exact age because this would be confidential, which might prevent us from emailing data files. 
+
+Request unique observer ID, save to data file.
+Record reports of discomfort to correlate with results.

@@ -1,0 +1,44 @@
+%get the durations of all the bug words for sandwich paper
+% read in all the single words and get average for resamp and faster
+
+clear all;
+close all;
+fclose all;
+
+nwordrows = 8;
+nwordcols = 5;
+talk = [1:18];
+ntalkers = length(talk);
+duration = zeros(ntalkers,nwordrows,nwordcols);
+
+wordpath = 'k:\BU Edited Words\';
+for nt = 1:ntalkers
+    nwcount = 0;
+    for nrows = 1:nwordrows
+        for ncols = 1:nwordcols
+            talknum = talk(nt);
+            if talknum < 10
+                wordfile = [wordpath 'T0' int2str(talk(nt)) '\BUG_T0' int2str(talk(nt)) '_' int2str(nrows) '_' int2str(ncols) lastpart '.wav']
+            else
+                wordfile = [wordpath 'T' int2str(talk(nt)) '\BUG_T' int2str(talk(nt)) '_' int2str(nrows) '_' int2str(ncols) lastpart '.wav']
+            end;
+            [w,Fs] = wavread(wordfile);
+            duration(nwcount,nt) = length(w)/Fs;
+        end;
+    end;
+end;
+end;
+
+%now get mean for "regular" and "fast"
+normal = reshape(squeeze(duration(:,:,1)),nwords(1)*nwords(2)*ntalkers,1);
+faster = reshape(squeeze(duration(:,:,2)),nwords(1)*nwords(2)*ntalkers,1);
+
+normx = mean(normal)
+sdnorm = std(normal)
+fastx = mean(faster)
+sdfast = std(faster)
+
+
+                    
+                
+            

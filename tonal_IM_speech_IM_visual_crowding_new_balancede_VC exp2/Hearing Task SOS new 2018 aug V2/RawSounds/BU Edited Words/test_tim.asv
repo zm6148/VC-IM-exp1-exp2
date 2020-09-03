@@ -1,0 +1,34 @@
+clear
+clc
+close all
+
+cd('\\sar-netapp2\kiddlab
+
+load ODB_words
+load TVM_words
+load BUG_words
+
+for n_row = 1:10
+    for n_col = 1:5
+        space_index = min(find(ODB_words(n_row,:,n_col)==' '))
+        
+        ODB_word_array{n_row,n_col} = ODB_words(n_row,1:space_index-1,n_col)
+    end
+end
+
+for n = 1:size(TVM_words,1)
+         space_index = min(find(TVM_words(n,:)==' '))
+         
+   TVM_word_array{n} = TVM_words(n,1:space_index-1);
+end
+
+
+for n_row = 1:8
+    for n_col = 1:5
+        space_index = min(find(BUG_words(n_row,:,n_col)==' '))
+        
+        BUG_word_array{n_row,n_col} = BUG_words(n_row,1:space_index-1,n_col)
+    end
+end
+% xlswrite('TVM_word_array', TVM_word_array')
+% %xlswrite('ODB_word_array', ODB_word_array')

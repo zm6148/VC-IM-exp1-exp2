@@ -1,0 +1,39 @@
+
+*********************************************************************************
+MODULATION DETECTION EXPERIMENT
+6/28/2012 16:56:37
+*********************************************************************************
+Listener:                   subject
+Paradigm:                   3AFC (2down-1up)
+Sample Rate (Hz):           44100
+
+Carrier Type:               noise
+Noise bandwidth (Hz):       80 20000
+Modulation frequency (Hz):  20
+Signal level (dB):          70
+Signal duration (ms):       50
+Ramping (ms):               0
+Precursor Toggle (boolean):        1
+Precursor Level (dB SPL):      50
+Precursor Duration (ms):       
+Partial Mod. Toggle (boolean):     0
+
+-------------------------------------------
+Level (dB):  Resp.(1=corr.; 0=incorr.):
+-------------------------------------------
+0     1
+0     1
+-8     1
+-8     1
+-16     1
+-16     1
+-24     0*
+-16     0
+-8     1
+-8     1*
+------------------------------------------------------------
+Reversal Levels (dB): -24 -8 
+Threshold (dB): -16.00
+SD (dB): 11.31
+------------------------------------------------------------
+

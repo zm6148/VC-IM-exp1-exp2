@@ -1,0 +1,40 @@
+
+*********************************************************************************
+INC/DEC DETECTION EXPERIMENT
+6/10/2014 15:46:31
+*********************************************************************************
+Listener:                   test4_10-Jun-2014
+Paradigm:                   3AFC (2down-1up)
+Sample Rate (Hz):           44100
+
+background noise toggle:  1
+precursor toggle:  0
+
+markerLevel           :  55
+markerLNNToggle       :  0
+markerType            :  Tone
+markerCutoffs         :  4000
+markerRamp        (ms):  1
+markerDur         (ms):  500
+bnoiseToggle          :  1
+bnoiseType            :  NtchN
+bnoiseDur         (ms):  500
+bnoiseRamp        (ms):  1
+bnoiseLNNToggle       :  0
+bnoiseOffset          :  -60
+bnoiseCutoffs         :  1750  3500  4200  8400
+bnoiseBW              :  5950
+bnoiseLevel           :  32.7452
+
+-------------------------------------------
+gap (ms):  Resp.(1=corr.; 0=incorr.):
+-------------------------------------------
+8.00     0.00*
+16.00     1.00
+16.00     1.00*
+------------------------------------------------------------
+Reversal Levels (dB): 8.00 16.00 
+Threshold (dB): 12.00
+SD (dB): 5.66
+------------------------------------------------------------
+

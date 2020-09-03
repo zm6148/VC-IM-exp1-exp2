@@ -1,0 +1,603 @@
+[MIX: LynxTWO-B Mixer]
+
+[DST: Out 1]
+Volume: 8125
+Mute: 0
+Dither: 0
+Phase: 0
+
+[SRC: Play Mix 1]
+Mux Source: 16
+Volume: 65535
+Mute: 0
+Phase: 0
+
+[SRC: Play Mix 2]
+Mux Source: 0
+Volume: 65535
+Mute: 0
+Phase: 0
+
+[SRC: Play Mix 3]
+Mux Source: -1
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[SRC: Play Mix 4]
+Mux Source: -1
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[DST: Out 2]
+Volume: 7410
+Mute: 0
+Dither: 0
+Phase: 0
+
+[SRC: Play Mix 1]
+Mux Source: 17
+Volume: 65535
+Mute: 0
+Phase: 0
+
+[SRC: Play Mix 2]
+Mux Source: 1
+Volume: 65535
+Mute: 0
+Phase: 0
+
+[SRC: Play Mix 3]
+Mux Source: -1
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[SRC: Play Mix 4]
+Mux Source: -1
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[DST: Out 3]
+Volume: 65535
+Mute: 0
+Dither: 0
+Phase: 0
+
+[SRC: Play Mix 1]
+Mux Source: 18
+Volume: 65535
+Mute: 0
+Phase: 0
+
+[SRC: Play Mix 2]
+Mux Source: 2
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[SRC: Play Mix 3]
+Mux Source: -1
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[SRC: Play Mix 4]
+Mux Source: -1
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[DST: Out 4]
+Volume: 65535
+Mute: 0
+Dither: 0
+Phase: 0
+
+[SRC: Play Mix 1]
+Mux Source: 19
+Volume: 65535
+Mute: 0
+Phase: 0
+
+[SRC: Play Mix 2]
+Mux Source: 3
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[SRC: Play Mix 3]
+Mux Source: -1
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[SRC: Play Mix 4]
+Mux Source: -1
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[DST: Out 5]
+Volume: 65535
+Mute: 0
+Dither: 0
+Phase: 0
+
+[SRC: Play Mix 1]
+Mux Source: 20
+Volume: 65535
+Mute: 0
+Phase: 0
+
+[SRC: Play Mix 2]
+Mux Source: 4
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[SRC: Play Mix 3]
+Mux Source: -1
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[SRC: Play Mix 4]
+Mux Source: -1
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[DST: Out 6]
+Volume: 65535
+Mute: 0
+Dither: 0
+Phase: 0
+
+[SRC: Play Mix 1]
+Mux Source: 21
+Volume: 65535
+Mute: 0
+Phase: 0
+
+[SRC: Play Mix 2]
+Mux Source: 5
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[SRC: Play Mix 3]
+Mux Source: -1
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[SRC: Play Mix 4]
+Mux Source: -1
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[DST: Out 7]
+Volume: 65535
+Mute: 0
+Dither: 0
+Phase: 0
+
+[SRC: Play Mix 1]
+Mux Source: 22
+Volume: 65535
+Mute: 0
+Phase: 0
+
+[SRC: Play Mix 2]
+Mux Source: 6
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[SRC: Play Mix 3]
+Mux Source: -1
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[SRC: Play Mix 4]
+Mux Source: -1
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[DST: Out 8]
+Volume: 65535
+Mute: 0
+Dither: 0
+Phase: 0
+
+[SRC: Play Mix 1]
+Mux Source: 23
+Volume: 65535
+Mute: 0
+Phase: 0
+
+[SRC: Play Mix 2]
+Mux Source: 7
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[SRC: Play Mix 3]
+Mux Source: -1
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[SRC: Play Mix 4]
+Mux Source: -1
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[DST: Out 9]
+Volume: 65535
+Mute: 0
+Dither: 0
+Phase: 0
+
+[SRC: Play Mix 1]
+Mux Source: 24
+Volume: 65535
+Mute: 0
+Phase: 0
+
+[SRC: Play Mix 2]
+Mux Source: 8
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[SRC: Play Mix 3]
+Mux Source: -1
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[SRC: Play Mix 4]
+Mux Source: -1
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[DST: Out 10]
+Volume: 65535
+Mute: 0
+Dither: 0
+Phase: 0
+
+[SRC: Play Mix 1]
+Mux Source: 25
+Volume: 65535
+Mute: 0
+Phase: 0
+
+[SRC: Play Mix 2]
+Mux Source: 9
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[SRC: Play Mix 3]
+Mux Source: -1
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[SRC: Play Mix 4]
+Mux Source: -1
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[DST: Out 11]
+Volume: 65535
+Mute: 0
+Dither: 0
+Phase: 0
+
+[SRC: Play Mix 1]
+Mux Source: 26
+Volume: 65535
+Mute: 0
+Phase: 0
+
+[SRC: Play Mix 2]
+Mux Source: 10
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[SRC: Play Mix 3]
+Mux Source: -1
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[SRC: Play Mix 4]
+Mux Source: -1
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[DST: Out 12]
+Volume: 65535
+Mute: 0
+Dither: 0
+Phase: 0
+
+[SRC: Play Mix 1]
+Mux Source: 27
+Volume: 65535
+Mute: 0
+Phase: 0
+
+[SRC: Play Mix 2]
+Mux Source: 11
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[SRC: Play Mix 3]
+Mux Source: -1
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[SRC: Play Mix 4]
+Mux Source: -1
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[DST: Out 13]
+Volume: 65535
+Mute: 0
+Dither: 0
+Phase: 0
+
+[SRC: Play Mix 1]
+Mux Source: 28
+Volume: 65535
+Mute: 0
+Phase: 0
+
+[SRC: Play Mix 2]
+Mux Source: 12
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[SRC: Play Mix 3]
+Mux Source: -1
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[SRC: Play Mix 4]
+Mux Source: -1
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[DST: Out 14]
+Volume: 65535
+Mute: 0
+Dither: 0
+Phase: 0
+
+[SRC: Play Mix 1]
+Mux Source: 29
+Volume: 65535
+Mute: 0
+Phase: 0
+
+[SRC: Play Mix 2]
+Mux Source: 13
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[SRC: Play Mix 3]
+Mux Source: -1
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[SRC: Play Mix 4]
+Mux Source: -1
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[DST: Out 15]
+Volume: 65535
+Mute: 0
+Dither: 0
+Phase: 0
+
+[SRC: Play Mix 1]
+Mux Source: 30
+Volume: 65535
+Mute: 0
+Phase: 0
+
+[SRC: Play Mix 2]
+Mux Source: 14
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[SRC: Play Mix 3]
+Mux Source: -1
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[SRC: Play Mix 4]
+Mux Source: -1
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[DST: Out 16]
+Volume: 65535
+Mute: 0
+Dither: 0
+Phase: 0
+
+[SRC: Play Mix 1]
+Mux Source: 31
+Volume: 65535
+Mute: 0
+Phase: 0
+
+[SRC: Play Mix 2]
+Mux Source: 15
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[SRC: Play Mix 3]
+Mux Source: -1
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[SRC: Play Mix 4]
+Mux Source: -1
+Volume: 65535
+Mute: 1
+Phase: 0
+
+[DST: Record 01+02]
+Source Left: 0
+Source Right: 1
+Mute: 0 0
+Dither: 1 1
+
+[DST: Record 03+04]
+Source Left: 0
+Source Right: 1
+Mute: 0 0
+Dither: 1 1
+
+[DST: Record 05+06]
+Source Left: 0
+Source Right: 1
+Mute: 0 0
+Dither: 1 1
+
+[DST: Record 07+08]
+Source Left: 6
+Source Right: 7
+Mute: 0 0
+Dither: 1 1
+
+[DST: Record 09+10]
+Source Left: 24
+Source Right: 25
+Mute: 0 0
+Dither: 1 1
+
+[DST: Record 11+12]
+Source Left: 26
+Source Right: 27
+Mute: 0 0
+Dither: 1 1
+
+[DST: Record 13+14]
+Source Left: 28
+Source Right: 29
+Mute: 0 0
+Dither: 1 1
+
+[DST: Record 15+16]
+Source Left: 30
+Source Right: 31
+Mute: 0 0
+Dither: 1 1
+
+[DST: Adapter]
+Rate Select: 44100
+Rate Lock: 1
+PreferredSource: 0
+Digital Format: 0
+SRC Mode: 0
+Dig In Mute: 1
+Dig Out Status: 1
+A In 12 Trim: 0
+A Out 12 Trim: 0
+A Out 34 Trim: 0
+A Out 56 Trim: 0
+LTC Out Enable: 0
+LTC Out FRate: 2
+LTC Out Drop: 1
+LTC Out SyncSrc: 0
+LTC Out Pos: 0
+Dither Type: 0
+Auto Recal: 1
+A In 12 HPF: 1
+D>A De-emphasis: 0
+ChangeIfActive: 0
+SyncStart: 1
+MTC Source: 0
+LS Dual Int: 0
+Enable MRM: 1
+GPOUT: 0
+DrvBufSize1X: 256
+DrvBufSize2X: 0
+DrvBufSize4X: 0
+DrvNumRDevs1X: 0
+DrvNumRDevs2X: 0
+DrvNumRDevs4X: 0
+DrvNumPDevs1X: 2
+DrvNumPDevs2X: 0
+DrvNumPDevs4X: 0
+Mix Lock: 0
+
+[DST: LStream]
+LS1 Out Sel: 0
+LS1 ADAT ClkSrc: 0
+LS1 ADAT Cue: 0
+LS1 AES ClkSrc: 0
+LS1 AES Wide: 0
+LS1 D1 Format: 0
+LS1 DI1 SRC: 0
+LS1 DO1 Status: 1
+LS1 D2 Format: 0
+LS1 DI2 SRC: 0
+LS1 DO2 Status: 1
+LS1 D3 Format: 0
+LS1 DI3 SRC: 0
+LS1 DO3 Status: 1
+LS1 D4 Format: 0
+LS1 DI4 SRC: 0
+LS1 DO4 Status: 1
+LS2 Out Sel: 0
+LS2 ADAT ClkSrc: 0
+LS2 ADAT Cue: 0
+LS2 AES ClkSrc: 1
+LS2 AES Wide: 0
+LS2 D1 Format: 0
+LS2 DI1 SRC: 0
+LS2 DO1 Status: 1
+LS2 D2 Format: 0
+LS2 DI2 SRC: 0
+LS2 DO2 Status: 1
+LS2 D3 Format: 0
+LS2 DI3 SRC: 0
+LS2 DO3 Status: 1
+LS2 D4 Format: 0
+LS2 DI4 SRC: 0
+LS2 DO4 Status: 1
