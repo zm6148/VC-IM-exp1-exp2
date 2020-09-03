@@ -39,7 +39,7 @@ Experiment 3 is the visual crowding task. Run the script **experiment_3_visual_c
 3)	The script will end when the experiment is finished.
 ## Data analysis
 1. Once all 3 experiments are finished, run **analysis_save_to_excel.m**. The summarized results will be stored in the excel file called **summarized_results.xlsx**.
-2. After data analyzed and summarized, run **roex_fit_ERB.m**. It will fit a roex function to threshold from both EM (noise masker) and IM (tonal masker) condition from experiment 1 and output the Equivalent Rectangular Bandwidth (ERB) measured in Hz. The ERB results will be append to **summarized_results.xlsx** as well.
+2. After data analyzed and summarized, run **roex_fit_ERB.m**. It will fit a roex function to thresholds from both EM (noise masker) and IM (tonal masker) conditions from experiment 1 and output the Equivalent Rectangular Bandwidth (ERB) measured in Hz. The ERB results will be append to **summarized_results.xlsx** as well.
 # Questions?
 Email us at ihlefeld@njit.edu
 
