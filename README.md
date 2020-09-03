@@ -1,4 +1,4 @@
-# This repository contains the raw data and data analysis scripts for Visual Crowding and Auditory Information Masking experiments
+# This repository contains the raw data and data analysis scripts for Visual Crowding and Auditory Informational Masking experiments
 
 # Table of Contents
 1. [Requirements](README.md#Requirements)
