@@ -407,6 +407,7 @@ for n_block = Params.current_block : Params.TotalBlocks
         y_mix = y_mix.*10.^(Params.atten/20);
         RMS_mix = rms(y_mix);
         
+        final_sound = [y_mix; zeros(length(y_mix),1)'];
         
         %Prime the subject prior to starting stimulus
         %presentation:
@@ -416,7 +417,7 @@ for n_block = Params.current_block : Params.TotalBlocks
         pause(50e-3)
         
         %%% continue HERE
-        player_mix = audioplayer(y_mix,Params.Fs);
+        player_mix = audioplayer(final_sound,Params.Fs);
         playblocking(player_mix);
         
         clear y_target y_masker y_mix
