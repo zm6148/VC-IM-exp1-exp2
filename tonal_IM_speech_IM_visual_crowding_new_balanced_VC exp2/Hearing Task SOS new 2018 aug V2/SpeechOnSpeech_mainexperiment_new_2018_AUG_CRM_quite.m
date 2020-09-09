@@ -10,7 +10,7 @@
 
 %% Initialization:
 %  ---------------
-%clear
+clear
 close all
 clc
 
@@ -44,8 +44,7 @@ response_display_mode = 'light'; % 'dark' - white text on black
 
 %% Subject session parameters:
 %  ---------------------------
-%subject_ID = input('Subject ID: ','s');
-subject_ID = subjectID;
+subject_ID = input('Subject ID: ','s');
 subject_file_name = ['.\data\Quiet_Subj',subject_ID];
 
 if exist([subject_file_name,'.mat'],'file') ~= 2
@@ -554,7 +553,7 @@ for n_block = Params.current_block : Params.TotalBlocks
     
     
 end
-disp('Thank you! You have finished the training session.')
+disp('Thank you! You have finished the session.  You may now exit the booth.')
 
 BUG_touch_response_GUI_CRM_testing('close',gui_word_mode,' ',response_display_mode,gui_name,feedback);
 

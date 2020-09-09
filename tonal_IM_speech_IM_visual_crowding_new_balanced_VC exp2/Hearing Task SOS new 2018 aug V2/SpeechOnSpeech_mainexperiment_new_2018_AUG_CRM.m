@@ -419,18 +419,18 @@ for n_block = Params.current_block : Params.TotalBlocks
             Lmasker(n_col) = length(SVC);
             clear which_band tmp env
             
-            if masker_type == 2 % noise condition
-                DBN = randn(size(NVC));
+            if WhichMasker == 2 % noise condition
+                DBN = randn(size(SVC));
                 DBN = DBN - mean(DBN);
                 DBN = DBN/max(abs(DBN(:)));
                 DBN_add = 0.*traw;
                 
                 % do band pass filter on noise and add up
-                f_low_all = VocParams(num_bands).FLO;
-                f_high_all = VocParams(num_bands).FHI;
+                f_low_all = VocParams(Params.Bands).FLO;
+                f_high_all = VocParams(Params.Bands).FHI;
                 
-                f_low_all = f_low_all(band_list_masker);
-                f_high_all = f_high_all(band_list_masker);
+                f_low_all = f_low_all(Params.band_list_masker);
+                f_high_all = f_high_all(Params.band_list_masker);
                 
                 for kk = 1 : length(f_low_all)
                     [DBN_temp,filtb,filta] = filters('bp',DBN,'fs',Params.Fs,'fc',[f_low_all(kk), f_high_all(kk)], 'order', 3);
@@ -440,7 +440,7 @@ for n_block = Params.current_block : Params.TotalBlocks
                 if size(bw)~=size(DBN)
                     bw = bw';
                 end
-                DBN = bw.*DBN_add./rms(bw.*DBN_add).*rms(NVC);% make sure that noise-vocoded masker and noise masker have the same RMS
+                DBN = bw.*DBN_add./rms(bw.*DBN_add).*rms(SVC);% make sure that noise-vocoded masker and noise masker have the same RMS
                 masker_token{n_col} = DBN;
                 
             else % speech condition
@@ -480,7 +480,7 @@ for n_block = Params.current_block : Params.TotalBlocks
         y_mix = y_masker + 10^(WhichTMR/20)*y_target;
         y_mix = y_mix.*10.^(Params.atten/20);
         RMS_mix = rms(y_mix);
-        
+        final_sound = [y_mix; zeros(length(y_mix),1)'];
         
         %Prime the subject prior to starting stimulus
         %presentation:
@@ -490,7 +490,7 @@ for n_block = Params.current_block : Params.TotalBlocks
         pause(50e-3)
         
         %%% continue HERE
-        player_mix = audioplayer(y_mix,Params.Fs);
+        player_mix = audioplayer(final_sound,Params.Fs);
         playblocking(player_mix);
         
         %clear y_target y_masker y_mix
